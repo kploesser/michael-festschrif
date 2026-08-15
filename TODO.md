@@ -1,5 +1,10 @@
 # Michael Rosemann Festschrift Article Task List
 
+## Deferred Author Direction
+
+- [ ] In a future manuscript revision, lead with the observation that agentic systems are the first true implementation of a CAIS. Unlike the symbolic rules of earlier CAIS designs, which encode human knowledge and understanding, the rules of agentic systems are entirely learned. Frame this distinction through Richard Sutton's `The Bitter Lesson`.
+  - Status: captured as an author note only on 2026-08-15. Do not research, develop, evaluate, or apply this direction until Karsten explicitly asks to resume it.
+
 ## Repository Setup
 
 - [x] Initialize the Git repository from the `../network-search` conventions.
