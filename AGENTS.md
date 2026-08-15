@@ -2,11 +2,13 @@
 
 ## Purpose
 
-This project organizes source materials, contributor coordination, editorial planning, drafts, and generated exports for a festschrift for Michael.
+This project develops Karsten Ploesser's invited scholarly contribution to an LNCS Festschrift honoring Professor Michael Rosemann's contributions to Business Process Management (BPM).
 
-The immediate goal is to confirm the occasion, audience, scope, contributors, schedule, and final format before substantive drafting begins.
+The article traces an intellectual line from Karsten's 2013 doctoral research, *A Design Theory for Context-Aware Information Systems*, to contemporary AI-augmented and agentic systems that perceive, reason about, act within, and learn from their environments.
 
-Ask for permission before overwriting or deleting existing files.
+The immediate goal is a rigorous, personal, and submission-ready chapter that explains what changed between context-aware information systems and agentic AI, what did not change, and what the earlier design theory contributes to the governance of agentic business processes.
+
+Ask for permission before overwriting or deleting user-provided files. Preserve superseded manuscript versions in `archive/` when revisions become material.
 
 ## Folder Guidance
 
@@ -25,54 +27,70 @@ Keep only steering files, project-management files, and standard repository meta
 - `STYLE-GUIDE.md`
 - `TODO.md`
 
-Keep read-only normalized source materials and imported reference notes in `sources/`. Treat source files as read-only unless the user explicitly asks to correct source material.
+Keep read-only normalized research notes and bibliographic records in `sources/`. Treat source files as read-only unless the user explicitly asks to correct source material.
 
-Use `raw/` as the staging folder for originals, submissions, images, scans, recordings, exports, and intermediary conversions before material is normalized into `sources/`.
+Use `raw/` for original PDFs and other source assets. Do not alter original source files.
 
-Keep scope decisions, contributor planning, thematic analysis, fact checking, permissions tracking, and editorial synthesis in `analysis/`.
+Keep argument design, literature synthesis, Festschrift framing, conceptual mappings, and submission analysis in `analysis/`.
 
-Keep editable outreach, contributor guidance, interview notes, manuscript sections, captions, and working notes in `drafts/`.
+Keep editable article manuscripts and working prose in `drafts/`.
 
-Keep superseded draft snapshots in `archive/`.
+Keep superseded manuscript snapshots in `archive/`.
 
-Keep generated exports in `output/`.
+Keep generated LNCS, Word, and PDF exports in `output/`.
 
-Create `media/` only when approved visual assets need a dedicated working area.
+## Core Files
 
-## Include
+- `raw/KARSTEN-PLOESSER-CONTEXT-AWARE-INFORMATION-SYSTEMS-THESIS-2013.pdf`: authoritative thesis source.
+- `raw/SPRINGER-COMPUTER-SCIENCE-PROCEEDINGS-AUTHOR-INSTRUCTIONS.pdf`: generic Springer proceedings guidance. Volume-specific instructions take precedence.
+- `sources/PLOESSER-CONTEXT-AWARE-INFORMATION-SYSTEMS-2013.md`: normalized thesis findings and page references.
+- `sources/CONTEXT-AWARE-TO-AGENTIC-BPM-RESEARCH-NOTES-2026.md`: current literature record and evidence boundaries.
+- `analysis/FESTSCHRIFT-BRIEF.md`: confirmed scope, thesis, and open submission decisions.
+- `analysis/FESTSCHRIFT-FRAMING-AND-OUTLINE-01.md`: tone guidance, article architecture, and author-input questions.
+- `drafts/CONTEXT-THEN-AND-NOW-FESTSCHRIFT-ARTICLE-01.md`: current manuscript.
 
-- `sources/INDEX.md`: inventory of source materials and their provenance.
-- `analysis/FESTSCHRIFT-BRIEF.md`: current scope, open decisions, and handoff context.
-- `raw/`: original materials and intermediary conversions retained for traceability.
+## Research Integrity
 
-## Editorial Integrity
+- Use the thesis PDF as the authority for Karsten's 2013 design theory. The thesis title page is dated December 2012; the repository and subsequent citations identify the completed doctorate as 2013. Preserve that distinction when it matters.
+- Do not invent post-2013 research activity, present-day empirical findings, personal anecdotes, supervisory conversations, or claims about Michael's influence.
+- Use Karsten's thesis acknowledgments as the only source for personal supervision claims until Karsten provides more detail.
+- Cite primary research papers or official publisher records for technical and historical claims.
+- Distinguish established findings, conceptual synthesis, proposed design principles, and future research questions.
+- Describe current agentic AI capabilities cautiously. Do not equate benchmark demonstrations with dependable organizational autonomy.
+- Treat the 2026 Agentic BPM literature as emerging. Do not present its terminology or architecture as settled consensus.
+- Distinguish an LLM context window from organizational or process context. A context window contains representations; context-awareness requires selecting and interpreting information relevant to system goals.
+- Do not reproduce thesis figures or tables in the article without confirming whether permission is required. Prefer a new conceptual mapping unless the user requests reuse.
+- Keep all quotations short, exact, attributed, and page-checked.
 
-- Do not invent biographical facts, dates, quotations, anecdotes, relationships, contributor intent, or permissions.
-- Distinguish direct quotations from paraphrases and editorial synthesis.
-- Preserve source provenance for factual claims, quotations, images, and captions.
-- Mark uncertain details as unconfirmed and use placeholders where information is missing.
-- Preserve each contributor's voice. Make substantive rewrites visible for review rather than silently changing meaning.
-- Track permission for contributions, photographs, artwork, and other material intended for distribution.
-- Treat private correspondence, contact details, and unpublished stories as private working material unless the user explicitly clears them for publication.
+## Festschrift Positioning
 
-## Formatting
+- Write a scholarly contribution first and a tribute through the choice of problem, intellectual lineage, and reflective framing.
+- Use a warm first-person opening and closing, but keep the technical core analytical and evidence-based.
+- Connect the article specifically to Michael's work on context-aware BPM and his later framing of conversational BPM, process autonomization, and process sophistication.
+- Avoid generic praise, biography, or a catalogue of Michael's achievements.
+- Make the author's independent contribution clear: a conceptual bridge from the five CAIS meta-requirements to design principles for context-aware agentic process systems.
+- Preserve room for one concrete personal recollection supplied by Karsten.
 
-- Use clear Markdown in steering, analysis, source, and draft files.
-- Use `# Michael Festschrift` as the title for main planning files unless the user confirms a different working title.
-- Use `##` headings for major sections.
-- Use bullets for inventories, evidence, open questions, contributors, permissions, and non-sequential notes.
-- Use numbered lists for ordered workflows, priorities, and publication sequences.
-- Keep each bullet focused on one source, decision, action, assumption, or unresolved question.
-- Use short paragraphs when context or editorial reasoning is clearer as prose.
-- Keep language direct, warm, and specific.
-- Use placeholders for names, dates, titles, links, credits, captions, and publication details that still need confirmation.
+## LNCS Conventions
+
+- Use the official Springer LNCS template for the submission artifact.
+- Use American English unless the volume editors instruct otherwise.
+- Include title, author and affiliation details, abstract, keywords, numbered sections, acknowledgments if appropriate, disclosure of interests, and references.
+- Use numeric citations and include DOI or stable primary-source links where available.
+- Treat 12 to 15 LNCS pages as a provisional full-paper planning range only. The volume invitation and editors' page limit override the generic guidance.
+- Keep the abstract self-contained and free of citations.
+- Number only the first two heading levels in the final LNCS artifact.
+- Create alt text for all figures and other non-text content.
+- Confirm the volume's policy for disclosure of generative-AI assistance before submission.
+
+## Terminology and Style
+
+- Use `context-aware information system` and `CAIS` for the 2013 design-theory class.
+- Use `AI-augmented BPM system` and `ABPMS` for the 2023 manifesto's system class.
+- Use `agentic business process management` and `APM` only when discussing the 2026 manifesto or explicitly extending it.
+- Use `agentic system` as the broader technical term.
+- Do not capitalize `agentic` unless it begins a title or sentence.
+- Prefer `perceive, reason, act, and learn` when describing the agent loop, while noting that implementations vary.
+- Use `Michael` in personal reflections and `Rosemann et al.` in scholarly claims.
+- Use short paragraphs, explicit transitions, and concrete distinctions.
 - No em dashes.
-
-## Contributor Communication
-
-- Keep outreach concise, personal, and low-pressure.
-- State the occasion, requested contribution, length or format, deadline, and intended audience only after those details are confirmed.
-- Personalize from verifiable relationship context only.
-- Do not overstate relationship strength or imply that participation is confirmed.
-- Record contribution status, follow-up dates, editing expectations, and publication permission when contributor work begins.
-- Prefer useful progress over polishing drafts whose underlying facts or scope remain unsettled.

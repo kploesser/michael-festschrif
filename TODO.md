@@ -1,60 +1,65 @@
-# Michael Festschrift Task List
+# Michael Rosemann Festschrift Article Task List
 
-## Setup
+## Repository Setup
 
-- [x] Initialize the Git repository.
-- [x] Create root steering and project-management files.
-- [x] Create `analysis/`, `drafts/`, `archive/`, and `output/`.
-- [x] Create `raw/` for originals and intermediary conversions.
-- [x] Create `sources/INDEX.md` for source provenance and permissions.
-- [x] Create `analysis/FESTSCHRIFT-BRIEF.md` for scope and handoff context.
-- [x] Base the structure and conventions on `../network-search` without copying its project-specific content.
+- [x] Initialize the Git repository from the `../network-search` conventions.
+- [x] Specialize the repository to Karsten Ploesser's LNCS Festschrift submission.
+- [x] Preserve the original thesis PDF in `raw/`.
+- [x] Preserve generic Springer proceedings instructions in `raw/`.
+- [x] Create normalized source notes and a source index.
+- [x] Create a Festschrift framing and article-outline memo.
+- [x] Create article draft v01.
 
-## Project Definition
+## Submission Requirements
 
-- [ ] Confirm Michael's full name and preferred form of address.
-- [ ] Confirm the occasion and purpose of the festschrift.
-- [ ] Confirm the intended audience and distribution level.
-- [ ] Confirm the final format, approximate length, and production quality.
-- [ ] Confirm the target delivery date and major milestones.
-- [ ] Confirm the project owner, final approver, budget, and vendor constraints.
+- [ ] Add the invitation or call for chapters to `sources/`.
+- [ ] Confirm the volume title, editors, publisher contact, and submission system.
+- [ ] Confirm the deadline, page limit, review process, and allowed article type.
+- [ ] Confirm whether the editors require LaTeX, Word, or either.
+- [ ] Confirm required abstract length and number of keywords.
+- [ ] Confirm disclosure language for competing interests and generative-AI assistance.
+- [ ] Confirm whether the chapter may reproduce or adapt thesis figures.
 
-## Editorial Plan
+## Author Information
 
-- [ ] Define the collection's themes and organizing principle.
-- [ ] Choose a provisional table of contents and contribution sequence.
-- [ ] Define accepted contribution formats, lengths, and editing expectations.
-- [ ] Decide how introductions, transitions, captions, acknowledgments, and credits will work.
-- [ ] Establish fact-checking, contributor review, and final-approval rules.
+- [ ] Confirm Karsten's preferred current affiliation.
+- [ ] Confirm corresponding email address.
+- [ ] Confirm ORCID.
+- [ ] Confirm whether post-2013 industry experience belongs in the chapter.
+- [ ] Obtain one specific, publication-cleared memory of Michael's supervision or intellectual influence.
+- [ ] Identify any current agentic-system example from Karsten's work that is cleared for publication.
 
-## Contributors
+## Research and Argument
 
-- [ ] Build the initial contributor list with relationship context and contact owner.
-- [ ] Confirm who should be invited and who should not be contacted yet.
-- [ ] Draft contributor guidance after scope and deadlines are confirmed.
-- [ ] Draft outreach variants for direct requests, warm introductions, and follow-ups.
-- [ ] Track invited, accepted, received, edited, approved, and declined statuses.
+- [x] Extract the thesis abstract, definition of CAIS, research questions, meta-requirements, contributions, limitations, and future research.
+- [x] Verify Michael Rosemann's supervisory role and the wording of the thesis acknowledgment.
+- [x] Trace the context-aware BPM lineage through the 2008 to 2011 joint publications.
+- [x] Review primary sources on ReAct, Reflexion, AgentBench, AI-augmented BPM, Large Process Models, Rosemann et al.'s three AI-era BPM drifts, and Agentic BPM.
+- [x] Define the distinction between a context window and context-awareness.
+- [x] Map the five CAIS meta-requirements to proposed agentic-process design principles.
+- [ ] Decide whether the paper's main contribution should be framed as design principles, a conceptual framework, or a research agenda.
+- [ ] Test the mapping against one publication-cleared organizational example.
+- [ ] Verify every bibliographic entry against the final published record.
 
-## Sources and Permissions
+## Manuscript Revision
 
-- [ ] Inventory existing documents, stories, photographs, artwork, recordings, and correspondence.
-- [ ] Preserve originals in `raw/` and normalize useful material into `sources/`.
-- [ ] Record provenance, rights holder, publication status, and permission in `sources/INDEX.md`.
-- [ ] Identify facts, captions, quotations, and credits that need verification.
-- [ ] Resolve privacy or permission concerns before material enters a shareable draft.
+- [x] Draft title, abstract, keywords, numbered sections, conceptual mapping, research agenda, conclusion, and references.
+- [ ] Replace all `AUTHOR INPUT` placeholders.
+- [ ] Add the confirmed personal recollection without expanding the tribute beyond the scholarly frame.
+- [ ] Tighten the article after the page limit is known.
+- [ ] Check that claims about current agent capabilities remain appropriately qualified.
+- [ ] Confirm that Michael's work is represented accurately and proportionately.
+- [ ] Ask a BPM-domain reader to challenge the conceptual mapping.
+- [ ] Ask a non-specialist reader to test the article's accessibility.
 
-## Drafting and Editing
+## LNCS Production
 
-- [ ] Create the manuscript structure after the editorial plan is approved.
-- [ ] Draft front matter, section introductions, transitions, captions, and acknowledgments as needed.
-- [ ] Copyedit contributions while preserving each contributor's voice.
-- [ ] Return substantive edits for review.
-- [ ] Archive materially superseded drafts.
-
-## Production
-
-- [ ] Choose page size, typography, image treatment, and accessibility requirements.
-- [ ] Generate a review copy only after the working manuscript is stable.
-- [ ] Proofread names, dates, quotations, captions, credits, links, and page references.
-- [ ] Complete contributor and project-owner approval.
-- [ ] Produce final digital and print-ready exports as required.
+- [ ] Obtain the current official LNCS template requested by the volume editors.
+- [ ] Convert the approved Markdown manuscript to LaTeX or Word.
+- [ ] Implement numeric references with DOI links.
+- [ ] Create an original vector figure only if it materially improves the conceptual mapping.
+- [ ] Add alt text for every figure and non-text element.
+- [ ] Add acknowledgments, disclosure of interests, and any AI-assistance disclosure required by the editors.
+- [ ] Render and visually inspect the complete submission PDF.
+- [ ] Check title, author names, affiliation, email, ORCID, running-head suggestion, tables, figures, references, and page count.
+- [ ] Produce the final source package and exact matching PDF.
