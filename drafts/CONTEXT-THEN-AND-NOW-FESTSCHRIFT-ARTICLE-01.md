@@ -1,5 +1,15 @@
 # Context Is More Than a Window: From Context-Aware Information Systems to Agentic Business Processes
 
+<!--
+
+- Review title: it should say "context then and now"
+- Align with expectations for an LNCS "Festschrift" in tone and style
+- Review line by line and annotate
+- Produce a general workable version without applying any extra "thinking" work
+- Only then address conceptual gaps such as the statement that Agentic Systems are the first true CAIS
+
+-->
+
 Karsten Ploesser
 [AUTHOR INPUT: current affiliation]
 [AUTHOR INPUT: city and country]
